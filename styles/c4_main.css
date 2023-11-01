@@ -1,0 +1,191 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0 auto 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+
+}
+html {
+	background-color: white; /* Set the background color for the HTML element */
+  }
+header{
+	border-bottom:3px solid #931420 ;
+	padding: 1.5em 0 2em 0;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+/* the styles for the header */
+header img {
+	float: left;
+	padding: 0 30px 0 30px;
+}
+header h2{
+	color: #800000;
+	font-size: 170%;
+	text-indent: 30px;
+
+}
+/* header h3 style */
+header h3{
+	color: #800000;
+	font-size: 130%;
+	text-indent: 30px;
+	font-style: italic;
+
+}
+/* Style rule for the "shadow" class */
+.shadow {
+    text-shadow: 2px 2px #800000;
+  }
+
+/* the styles for the main content */
+main {
+	/* clear: left; */
+	padding: 0 0 0 0;  /* top right bottom left */
+}
+main h1 {
+	font-size: 150%;
+	font-family: 'Verdana', sans-serif;
+  	font-size: 1.8em;
+  	margin: 0;
+	padding: 0.5em 0 0.25em 0;  /* top right bottom left */
+	border-bottom: 2px solid #800000;
+}
+section h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+	/* border-top: 2px solid #800000; */
+}
+.h2ticket{
+	border-top: 2px solid #800000;
+}
+section img{
+	float: right;
+	margin: -60px 0 0 0 ;  /* top right bottom left */
+	border: 1px solid black;
+}
+ .new-para{
+	width: 250px;
+}
+aside h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+aside h3 {
+	font-size: 105%;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;  /* top right bottom left */
+  }
+  
+  aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;  /* top right bottom left */
+  }
+
+a:focus {
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer{
+	background-color: #800000;
+	padding: 10px;
+	clear: both;
+	
+}
+footer p{
+	text-align: center;
+	color: white;
+}
+
+:root {
+	--global-color-1: #800000;
+  }
+  .my-element {
+	background-color: var(--global-color-1);
+  }
+
+
+
+  .navbar {
+	overflow: hidden;
+	background-color: #800000;
+  }
+  
+  .navbar a {
+	float: left;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 14px 49px;
+	text-decoration: none;
+	
+  }
+  .navbar .current {
+	color: yellow;
+  }
+  
+  .dropdown {
+	float: left;
+	overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #555;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #800000;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #555;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  
+  
+
+  
+  
+  
+
+ 
+  
+
+  
